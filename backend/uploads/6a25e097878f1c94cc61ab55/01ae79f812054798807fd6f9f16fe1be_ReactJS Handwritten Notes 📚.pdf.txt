@@ -1,0 +1,2993 @@
+Here's the extracted text from the document:
+
+**Page 1**
+TOPPER
+WORLD
+REACT.JS
+HANDWRITTEN
+NOTES
+Prepared By: TOPPERWORLD
+LEARN & GROW
+
+**Page 2**
+classmate
+TOPPER
+WORLD
+Date
+Page
+INDEX
+No Topic Page No
+1 React Js Tutorial Introduction 1
+2 React Features 4
+3 Pros and Cons 6
+4. React Js vs Angular Js 9
+5. React JS vs React Native 10
+6. React vs Vue 12
+7. React JSX TOPPER World 13
+8- React Components 18
+9. React State 22
+10 React Props 25
+11 React Props Validation 28
+12 React State vs Props 31
+13 React Constructor 32
+
+**Page 3**
+classmate
+TOPPER
+WORLD
+Date
+Page
+14 React Component API 35
+15 React Component Life Cycle 40
+16 React Forms 42
+17 Controlled Vs Uncontrolled 46
+18 Conditional Rendering 49
+19 React Lists 51
+20 React Keys 52
+21 React Refs 53
+22 React Fragments 56
+23 React Router 58
+24 React Css 60
+25 React Animation 66
+26 React Map 68
+27 React Table 70
+28 Higher Order Component 71
+
+**Page 4**
+classmate
+TOPPER
+WORLD
+Date
+Page
+29 React Code Spliting 73
+30 React Context 75
+31 React Hooks 77
+32 React Flux vs mvc 78
+33 React Redux 81
+34 React Portal 82
+
+**Page 5**
+CLASSMATE
+TOPPER
+WORLD
+Date
+Page 1
+React.Js
+ReactJs is a declarative, efficient, and flexible
+Javascript library for building reusable UI components
+It is an open-source, component-based front end
+library which is responsible only for the view layer
+of the application. It was initially developed and mai-
+ntained by Facebook
+Why we use React Js :-
+The main objective of React Js is to develop User
+Interface (UI) that improves the speed of the
+apps. It uses virtual Dom (Javascript Object),
+which improves the performance of the app. The
+javascript virtual Dom is faster than the regul-
+ar Dom. We can use ReactJs on the client
+and server-side as well as with other frame-
+works. It uses component and data patterns
+that improves readability and maintain larger
+apps.
+React create-react-app
+The create-react-app is an excellent tool
+for beginners, which allows you to create and
+run React project very quickly. It does not
+take any configuration manually. This tool is
+wrapping all of the required dependencies
+like Webpack, Babel for React project itself
+and then you need to focus on writing code
+
+**Page 6**
+TOPPER
+WORLD
+classmate
+Date
+Page 2
+Requirement:-
+The create React App is maintained by
+Facebook and can works on any platform
+for ex- macos, Windows, Linux.
+To create a React project using create react
+app. you need to have installed the following
+things.
+1) Node version >= 8.10
+2) NPM version >= 5.6
+• Run the following code to check the Node
+version in command prompt.
+$ node -v
+Select Command Prompt
+Microsoft Windows [Version 10.0.18362.239]
+(c) 2019 Microsoft Corporation. All rights reserved.
+C:\Users\javatpoint>node -v
+v10.16.0
+C:\Users\javatpoint>
+TOPPER World
+Run the following command to check the
+Npm version in command prompt.
+$ npm-v
+Command Prompt
+C:\Users\javatpoint>npm -v
+6.9.0
+C:\Users\javatpoint>
+localhost:8080
+
+**Page 7**
+CLASSMATE
+TOPPER
+WORLD
+Date
+Page 3
+In react application, there are several files
+and folders in the root directory, some of them
+are as follows.
+1) node-module:- It contains the React library
+and any other third party libraries needed.
+2) public:- It holds the public assets of the
+application. It contains the index.html where
+React will mount the application by default
+on the <div id = "root"> </div> element.
+3) Src :- It contains the App.css, App.js, index.js
+and service Worker.js, Here the App.js file
+always responsible for displaying the output
+Screen react.
+4) package-lock.json :- It is generated auto-
+matically for any operations where npm pac-
+kage modifiers either the node-module tree
+or package.json. It cannot be published. It
+will be ignored. if it finds any other place
+rather than the top-level package.
+5) package.json :- It holds various metadata
+required for the project. It gives information
+to npm, which allows to identify the project.
+as well as handle projects.
+6) Readme.md :- It provides the documentati-
+on to read about React topics
+
+**Page 8**
+Classmate
+TOPPER
+WORLD
+Date
+Page 4
+• React Features ::
+• JSX:-
+JSX stands for Javascript XML. It is a java-
+Script syntax extension. Its an XML or
+HTML like syntax used by ReactJs. This
+Syntax is proceed into javascript calls of
+React Framework. It extends the ES6 so that
+HTML like text can co-exit with Javascript
+react code. It is not necessary to use
+JSX, but it is recommended to use in
+React Js.
+• Component :-
+ReactJs is all about components, ReactJs
+application is made up of multiple compone-
+nts and each component has its own logic
+and control These components can be
+reusable which helps you to maintain the
+code when working on larger scale projec-
+• One-way Data Binding:-
+React Js is designed in such manner
+that follows unidirectional data flow or
+one-way data binding. The benifits of
+one-way data binding give you better con-
+trol throught application. If the data flow is
+in another direction then it require a
+additional feature. It is because compon-
+ents are supposed to be immutable and the
+data within them cannot be changed.
+
+**Page 9**
+Classmate
+TOPPER
+WORLD
+Date
+Page 5
+• Virtual Dom:-
+A virtual Dom object is a representation of the
+original Dom object. It works like a one-way
+data binding. Whenever any modifications
+happen in the web application The entire UI
+is re-rendered in virtual Dom representation
+and new Dom. Ones it has done, the real Dom
+will update only the things that have actually
+changed.
+• Simplicity :-
+React Js uses Jsx file which makes the app-
+lication simple and to code as well as under-
+stand. We know that ReactJs is component
+based approch which makes the code reusa-
+ble as your need. This makes it simple to
+use and learn.
+• Performance :-
+ReactJs is known to be a great performer.
+This feature makes it much better than oth-
+er framework out there today. The reason
+behind this is that it manages virtual Dom.
+The Dom is a cross platform and programm-
+ing API which deals with HTML, XML &
+XHTML. The. Dom exits entirely in memory.
+Due to this when we create a component.
+We did not write directly to Dom.
+
+**Page 10**
+TOPPER
+WORLD
+classmate
+Date
+Page 6
+Pros and Cons React JS:-
+Advantage of ReactJs:-
+① Easy to learn and use:-
+React Js is mush easier to learn and use.
+It comes with a good supply of documentat-
+ion tutorial and training resource.
+② Creating Dynamic Web-Application Becomes
+Fasier:-
+To create a dynamic web application specifi-
+cally with HTML Strings was tricy because
+it requires a complex coading, but React Js
+Solved that issue and makes it easier. It
+provide less coding and gives more func-
+tionality. It makes use of Jsx, which is
+particular Syntax leting HTML Quotes.
+③ Reusable Component:-
+A ReactJs web application is made up a
+multiple components. and each components
+has its own logic and controls. These
+Components are responsible for outputing
+Small and reusable code helps to make
+Your apps easier to develop and maintain.
+④ Performance. Enhancement:-
+React Js improves performance due to virtu-
+al Dom The Dom is a cross platform and
+programming API which deals with HTML
+XML or XHTML. Most of the developers
+faced the problem when the Dom was
+
+**Page 11**
+TOPPER
+WORLD
+classmate
+Date
+Page 7
+updated. which slowed down the performance
+of the application. React Js solved this problem
+by introducing Virtual Dom.
+⑤ The Support of Handy Tools:-
+React Js has also gained popularity due to
+the presence of handy set of tools. These
+tools make the task of developer understan-
+dable and easier. The React Developer Tool
+have been designed as Chrome and Firebox.
+dev extension and allow you to inspect the
+React component hierarchies in the virtual
+Dom.
+⑥ Known to be SEO Friendly:.
+Traditional Javascript framework have an
+issue in dealing with SEO. The search engins
+generally having trouble in reading JS app-
+lication. Many web developers have often
+complained about this problem. ReactJs over-
+comes this problem that helps developers
+to be easily navigaated on various search
+engins.
+⑦ The Benifits of having Javascript Library:-
+React Js is choosing by most of the web
+developers. It is because it is offering very
+rich Javascript library. The javascript library
+provides more flexibility to the web deve-
+lopers to choose the way they want.
+
+**Page 12**
+Classmate
+TOPPER
+WORLD
+Date
+Page 8
+Disadvantage of ReactJS
+① The high pace of development:-
+The high pace of development has an advanta-
+ge and disadvantage both. In case of disadvantage
+Since the Envirnment continuesly change so
+fast, some of the developers not filling
+comfertable. to relearn the new ways of
+doing things regullarly.
+② Poor documentation:-
+It is another cons which are common for
+constanly updating technology. React technolog-
+y and accelerating so fast that there is no
+documentation properly.
+③ View Part:-
+React JS cover only the UI layers of the
+app nothing else, so you still need to choo-
+se some other technologies to get complete
+tooling set for development in project.
+④ Jsx is barrier:-
+React Js uses JSX. Its syntax extension
+that allows HTML with Javascript mixed.
+together. This approch has its own be-
+nefits, but some members of the develop-
+ent community consider JSX as a barrie-
+r especially for new developers. Developers
+complain about its complexity in the
+learning curve.
+
+**Page 13**
+classmate
+TOPPER
+WORLD
+Date
+Page 9
+ReactJs vs Angular Js :-
+Angular Js React JS
+Author Google Facebook community
+Developer Misko Hevery Jordan Walke
+Initial October 2010 March 2013
+Release
+Latest Angular 1.7.8 on 11 React 16.8.6 on 27
+Version March 2019 March 2019
+Language Javascript, HTML Jsx
+Type Open Source MVC Open Source Js
+Framework Framework.
+Rendering Client -Side Server-Side
+Packaging Weak Strong
+Data-Binding Bi-directional Unidirectional
+Testing Unit and Integrati- Unit Testing
+on Testing
+App MVC Flux
+Architecture
+
+**Page 14**
+CLASSMAte
+TOPPER
+WORLD
+Date
+Page 10
+Dependencies It manages It require additio-
+dependencies nal tools to m-
+automatically ange dependencies
+Routing It requires a It doesn't han-
+template or dle routing but
+controller to its has a lot of
+router configura- module for ro-
+tion, which has uting.
+to be manged
+manually
+Performance Slow Fast, due to
+Virtual Dom.
+Best For It is best for It is best for
+Single page app- single page app-
+lication that lications that
+update a single update multiple
+view at a time views at a time
+React Js Vs React Native (Difference)
+React Js React Native
+① The ReactJs initial The react Native
+release was in 2013 initial release was
+in 2015
+② It is used for develop- It is used for deve-
+loping
+
+**Page 15**
+classmate
+TOPPER
+WORLD
+Date
+Page 11
+web application mobile applications.
+③ It can be executed It is not platform
+on all platform. independant. It takes
+more effort to be
+executed on all platform.
+④ It uses a Javascript It comes with built-in
+library and CSS for animation libraries.
+animations
+⑤ It uses React-router It has built-in ani-
+for navigating web mation libraries.
+pages
+⑥ It uses HTML tags It does not use
+HTML tags.
+⑦ It can HTML tags It does not use HTML
+tags
+⑧ It can use code It can reuse React
+Components, which Native UI component
+Saves a lot of valuable & modules which allow
+time hybrid apps to render
+natively
+⑨ It provides high It provides low secu-
+Security rity in comparison
+to ReactJs
+
+**Page 16**
+classmate
+TOPPER
+WORLD
+Date
+Page 12
+React Vs Vue.
+React Vue.
+Defination React is declarative Vue is an open-
+efficient, flexible source JS librar-
+open-source JS for building reus-
+library for building able user inter-
+reusable UI faces and single
+Component page application
+History It was created Vue was created
+by Jordan Walke, by Even You, a
+a software engineer former employee
+at Facebook, It of Google worker
+was initially on many Angular
+developed and project. He wanted
+maintained by to better version
+Facebook and later of Angular just
+used in its extracting the
+products like part which he
+Whatsapp & Insta. liked about Angu-
+lar and making it
+lighter.
+Prefered Javascript / HTML / Javascript
+Language XML
+Size The size of the The size of the
+React library is Vue library is
+100 Kilobytes 60 kb.
+
+**Page 17**
+CLASSMATE
+TOPPER
+WORLD
+Date
+Page 13
+Performance The performance Its performance
+is slow as com- is fast as a
+pared to Vue compared to React.
+Flexibility React provides great Vue provides limited
+flexibility to support flexibility as com-
+third party library pared to React.
+Current React 16.8.6 on Mar- Vue 2.6.10 on
+Version ch 27,2019 March 20, 2019.
+Long Term It is suitable for It is not suitable
+Support long term support for long term
+Support.
+React JSX.
+JSX provides you to write HTML/XML like Str-
+ucture in the same file where you write
+javascript code, then preprocessor will transfor-
+m these expression. into actual Javascript
+Code. Just like XML/HTML, JSX tags name,
+attributes, and chilldren.
+Why Use JSX?
+• It is faster then regular javascript because
+it performs optimization while translating
+the code to javascript.
+• Insted of separating technologies by putting
+markup and logic in separate files, React
+
+**Page 18**
+TOPPER
+WORLD
+Classmate
+Date
+Page 14
+uses component that contain both. We will
+learn component.
+• It is type - safe, and most of the errors
+Can be found at compilation time.
+• It makes easier to create template.
+Nested Elements in JSX.-
+APP. JSX
+import React { component } from 'react';
+class App extends Component {
+render() {
+return (
+<div>
+<h1> Javatpoint </h1>
+<h2> Training Institute </h2>
+<P> This website Contains
+the best cs tutorials </P>
+</div>
+);
+}
+}
+export default App;
+JSX Attribute:-
+JSX use attributes with the HTML ele-
+ments same as regular HTML. JSX
+uses convention for attribute rather th-
+an Standard naming convention of HTML
+
+**Page 19**
+TOPPER
+WORLD
+Classmate
+Date
+Page 15
+Such as a class in HTML becomes class-
+Name in JSX because the class is the
+reversed keyword in javascript. We can also
+user our own custom attribute, we need
+to use data-prefix.
+Example:-
+import React, { Component } from 'react';
+class App extends Component {
+render() {
+return (
+<div>
+<h1> JavaTpoint </h1>
+<h2> Training Institute </h2>
+<P data-demo Attribute ="demo">
+This website contains the best CS</P>
+</div>
+);
+}
+}
+TOPPER World
+export default App;
+In Jsx, We can specify attribute values in
+2 ways;
+① As String Literal:-
+We can specify the values of attributes
+in double quotes.
+Var element = <h2 className = "first Attribute">
+Hellow JavaTpoint </h2>
+
+**Page 20**
+TOPPER
+WORLD
+CLASSMATE
+Date
+Page 16
+Example:-
+import React, { component } from 'react';
+class App extends Component {
+render () {
+return (
+<div>
+<h1 className = "hello" > JavaTpoint</h1>
+<P data-demo Attribute = "demo">
+This website contains the best cs
+tutorials </P>
+</div>
+);
+}
+}
+export default App;
+② As Expressions:-
+We can specify the values of attributes
+as expression using Curly braces {}
+Example.
+import React, { Component } from 'react';
+class App extends Component {
+render (){
+return (
+<div>
+<h1 class Name="hello"> {25+20}</h1>
+</div>
+);
+}
+}
+export default App;
+-45
+
+**Page 21**
+TOPPER
+WORLD
+classmate
+Date
+Page 17
+JSX Comments
+Jsx allows us to comments that begins with
+/* and ends with */ and wrapping them
+in curly braces {} just like in the case of
+JSX expressions
+Example
+import React, {Component } from 'react';
+class App extends Component {
+render() {
+return (
+<div>
+<h1 className = "hello" > Hello JavaPoint </h1>
+</div>
+);
+}
+}
+export default App;
+JSX Styling.
+TOPPER World
+React allways recommended to use inline style
+To set inline styles, you need to use camel-
+Case syntax. React automatically allows app-
+ending px after the number value on
+Specific elements.
+Example:-
+import React, { Component } from 'react';
+class App extends Component {
+render(){
+Var myStyle = {
+font Size: 80
+
+**Page 22**
+TOPPER
+WORLD
+classmate
+Date
+Page 18
+font family: 'Courier',
+Color: '#003300'
+}
+return (
+<div>
+<h1 Style = { myStyle } >
+www.javatpoint.com </h1>
+</div>
+);
+}
+}
+export default App;
+Output:-
+localhost:8080
+www.javatpoint.com
+React Components
+React Component
+Functional Class
+Component Component
+Functional Component:-
+In React, function Component are a
+way to write Component that only conto
+
+**Page 23**
+TOPPER
+WORLD
+classmate
+Date
+Page 19
+a render method and don't have their own state.
+They are simply javascript function that may or
+may not receive data as a parameter. We
+can create function that takes props as
+input and returns what should we rendered.
+function WelcomeMessage (props) {
+return <h1> Welcome to the; { Props.name} </h1>
+}
+The functional component is also known as a
+stateless component because they do not
+hold or manage state.
+Example.
+import React, { Component } from 'react';
+class App extends React.Component {
+render() {
+return(
+<div>
+TOPPER World
+<First/>
+<Second/>
+</div>
+);
+}
+}
+class first extends React.Component {
+render(){
+return (
+<div>
+<h1> JavaTpoint </h1>
+</div>
+);
+
+**Page 24**
+TOPPER
+WORLD
+classmate
+Date
+Page 20
+}
+}
+Class Second extends React.Component {
+render () {
+<div>
+<h2> www.JavaTpoint </h2>
+<P> This website contains the
+great Cs tuto </P>
+</div>
+);
+}
+}
+export default App;
+localhost:8080
+JavaTpoint
+www.javatpoint.com
+This websites contains the great CS tutorial.
+TOPPER World
+Class Components.
+Class components are more complex than
+functional components. It requires you to
+extend from React. Component and create
+a render function which returns a React
+element. You can pass data from one class
+to other class component.
+Example:-
+Import React { Component } from 'react';
+class App extends React.Component {
+Constructor () {
+
+**Page 25**
+TOPPER
+WORLD
+classmate
+Date
+Page 21
+Super();
+this.state = {
+data:
+[
+{
+"name":"Abhishek"
+},
+{
+"name":"Saharsh"
+},
+{
+"name": "Ajay"
+}
+]
+};
+}
+render() {
+return (
+<div>
+<h1> Student Name Detail </h1>
+</div>
+);
+}
+}
+TOPPER World
+Class List extends React.Component {
+render() {
+return (
+<ul>
+<li> { this.props.data.name} </li>
+</ul>
+);
+}
+}
+export default app;
+
+**Page 26**
+TOPPER
+WORLD
+classmate
+Date
+Page 22
+React State -
+The state is an updated structure that is used
+to contain data or information about the com-
+ponent. The state in component Can change
+over time. The state in change over time
+happen as a response to user action
+or System event.
+A state must be kept as simple as possible.
+It can be state by using the setState()
+method and calling setState() method trigge-
+rs UI Updates. A state represents the com-
+ponent's local state or information. To state
+an initial state before any interaction
+Occure we need to use getInitialState.
+method.
+Defining State:-
+To define a state, you have to first declare
+a default set of values for the defining
+the components initial state.
+Example:-
+import React, { componet } from 'react';
+Class App extends React Component {
+Constructor(){
+Super ();
+this.state = { display Bio: true };
+}
+render(){
+const bio = this.state. display Bio ? (
+<div>
+<h3> Javatpoint is one of the best train-
+
+**Page 27**
+TOPPER
+WORLD
+classmate
+Date
+Page 23
+institute in Noida, Delhi, Gurugram, Ghaziabad
+</h3> </P>
+</div>
+): null;
+return (
+<div>
+<h1> Welcome to javaTpoint </h1>
+{bio}
+</div>
+);
+}
+}
+export default App;
+localhost:8080
+Welcome to JavaTpoint!!
+Javatpoint is one of the best Java training institute in Noida, Delhi, Gurugram, Ghaziabad and Faridabad. We have a team of experienced Java developers and trainers from multinational
+companies to teach our campus students.
+Changing the state :-
+we can change the component state by using
+setState() method and passing a new state object
+as the argument. Create a new method toggle-
+Display Bio() in the above example.
+this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
+import React { Component } from 'react';
+class App extends React.Component {
+Constructor(){
+Super ();
+this.state = { display Bio: false };
+
+**Page 28**
+TOPPER
+WORLD
+Console.log('Component this', this);
+classmate
+Date
+Page 24
+this.toggleDisplayBio = this.toggleDisplayBio.bind (this);
+}
+this.toggleDisplayBio() {
+this.setState ({display Bio: ! this.State.display Bio });
+}
+render() {
+return (
+<div>
+<h1> Welcome to Javatpoint </h1>
+{
+this.state. display Bio? (
+<div>
+<h4> Javatpoint is one of the best Java
+institute in Noida</h4> </p>
+<button onclick = { this.toggleDisplay-
+Bio } > Show Less </button>
+</div>
+) : (
+<div>
+<button onclick = {this.toggleDisplayBio}>
+Read more </button>
+</div>
+) }
+</div>
+) } } }
+export default App:
+
+**Page 29**
+TOPPER
+WORLD
+classmate
+Date
+Page 25
+when you click on Read More.
+localhost:8080
+Welcome to JavaTpoint!!
+Read More
+React Props: -
+Props stand for Properties. They are read-only
+Components. It is an object which store the valu-
+e of attribute of a tag and work simillar to the
+HTML attribute.
+Props are immutable so we cannot modify
+this props from inside the component.
+Example:-
+App-Js
+import React; { component } from 'react';
+class App extends React-Component {
+render () {
+return (
+<div>
+<h1> Welcome to { this.props.name} </h1>
+<P> <h4> Javatpoint is one of the best
+training institute in India </h4> </di>
+);
+}
+}
+export default App;
+Main-Js
+import React from 'react'
+import ReactDom from 'react-dom';
+import App from './App.JS';
+
+**Page 30**
+TOPPER
+WORLD
+CLASSMATE
+Date
+Page 26
+React Dom. render (<App name = 'Java Tpoint" />,
+document. get Element By Id ('app'));
+localhost:8080
+Welcome to JavaTpoint!!
+Javatpoint is one of the best Java training institute in Noida, Delhi, Gurugram, Ghaziabad and Faridabad.
+Default Props:-
+It is not necessary to always add props in
+the React Dom.render() element. You can
+also set defaults props directly.
+Example
+App. Js
+import React, {Component } from 'react';
+class App extends React.Component {
+render() {
+return (
+<div>
+<h1> default Props Example </h1>
+<h3> Welecome to {this.props. name } </h3>
+<P> JavaTpoint is one of the best Java
+training </P>
+</div>
+); } }
+App. default Props = {
+name: "JavaTpoint"
+}
+export default App;
+
+**Page 31**
+TOPPER
+WORLD
+classmate
+Date
+Page 27
+Main.Js
+import React from 'react';
+import ReactDUM from 'react-dom';
+import App from './App.js';
+React Dom. render (<App/>, document.getElement-
+ById('app'));
+localhost:8080
+Default Props Example
+Welcome to JavaTpoint!!
+Javatpoint is one of the best Java training institute in Noida, Delhi, Gurugram, Ghaziabad and Faridabad.
+State and Props.
+It is possible to combine both state and props
+in your app. You can set the state in the paren-
+t Component and pass it in the child component
+using props.
+Example.
+App. Js
+Import React { Component } from 'react';
+class App extends React.Component {
+Constructor (props) {
+Super (props);
+this.state = {
+name: "JavaTpoint"
+}
+}
+render() {
+return (
+<div>
+<JTP jtpprops={this.state.name}/>
+
+**Page 32**
+TOPPER
+WORLD
+classmate
+Date
+Page 28
+</div>
+); } }
+class JTP extends React.Component {
+render() {
+return (
+<div>
+<h1> State & Prope example </h1>
+<h3> Welcome to {this.props.jtpProp} </h3>
+<P> JavaTpoint is one of the best Java
+training institute in Noida </P>
+</div>
+);
+}}
+export default App;
+Main-Js
+import React from 'react';
+import React Dom from 'react-dom';
+import App from './App.JS';
+React Dom.render (<App />, document .get-
+ElementById ('app'));
+localhost:8080
+State & Props Example
+Welcome to JavaTpoint!!
+Javatpoint is one of the best Java training institute in Noida, Delhi, Gurugram, Ghaziabad and Faridabad.
+React Props Validation:-
+Props are an important mechanism for
+passing the read-only attribute to React
+component. The props are usually requir-
+ed to use Correctly in the component.
+
+**Page 33**
+TOPPER
+WORLD
+classmate
+Date
+Page 29
+Validating Props :-
+App. props Type is used for props validation
+in react component. When some of the props
+are passed with an invalid type, you will
+yet the warnings on Javascript console. After
+Specifying the validation patterns.
+Syntax:-
+class App extends React.Component {
+render() {}
+}
+Component. prop Types = { /* */ }
+ReactJs Props Validator.
+Props Type Description
+① PropTypes.any The props can be of
+any data type.
+② PropTypes.array The props should be an
+array.
+③ PropTypes.bool The props should be a
+boolean.
+④ PropTypes.func The props should be a fun-
+ction.
+⑤ PropTypes.number The props should be a number.
+⑥ PropTypes.Object. The props should be a object.
+
+**Page 34**
+TOPPER
+WORLD
+classmate
+Date
+Page 30
+⑦ PropTypes.string The props should be String.
+⑧ PropTypes.Symbol The props should be Symbol.
+⑨ PropTypes-instanceof The props should be an
+instance of particular
+Javascript class.
+⑩ PropTypes.isRequired The props must be provided.
+⑪ PropTypes.element The props must be element.
+⑫ PropTypes.node The props can render
+anything: number, String,
+element or an array
+containging these types.
+⑬ PropTypes.oneOf() The props should be
+one of several types of
+Specific values.
+⑭ PropTypes.oneOfType The props should be
+((PropTypes.string, an object that could
+PropTypes.number)) be one of many type
+• React Js Custom Validators.
+React Js allows creating a custom Validation
+function to perform custom Validation. The
+following arguments is used to create a
+Custom validation function.
+
+**Page 35**
+TOPPER
+WORLD
+classmate
+Date
+Page 31
+props :- It should be first argument in the
+Component.
+prop Name: It is the prop Name that going to
+validate.
+Component Name:- It is the component Name that
+are going to validate again.
+Example:-
+var Component = React.createClass({
+App. prop Types = {
+custom Prop: function (props, prop Name, Compo-
+nent Name) {
+if (!item. is Valid (props [prop Name])) {
+return new Error ('Validation failed');
+} } } } )
+Difference between State and Props.
+Props State.
+Props are read-only State changes can be
+asynchronous.
+Props are immutable State is mutable
+Props allow you to pass State holds information
+data from one compon- about the components
+ent to other component.
+as an argument.
+Props can be accessed State cannot be accessed
+
+**Page 36**
+TOPPER
+WORLD
+classmate
+Date
+Page 32
+by the child component by child components
+Props are used to State can be used for
+Communicate between rendering dynamic ch-
+Component anges with the componer.
+Stateless component Stateless component
+can have Props Cannot have State.
+Props make component State cannot make
+reusable components reusable
+Props are external and The State is internal
+controlled by whatever and controlled by the
+render the component React Component itself.
+SN State and Props
+① Both are plain JS Object
+② Both can contain default values.
+③ Both are read-only when they are using
+by this.
+What is Constructor:-
+The constructor is a method used to initiallize
+an object state in class. It automatically
+Called during the creation of an object in
+an in
+
+**Page 37**
+TOPPER
+WORLD
+classmate
+Date
+Page 33
+class.
+Constructor (props) {
+Super (props);
+}
+In react, Constructor are mainly used.
+① It is used for initializing the local state of the
+Component by assigning an object in this. state.
+② It is used for binding event handler methods
+that occure in your component.
+Example:-
+App.Js
+import React, { component } from 'react';
+class App extends Component {
+constructor (props) {
+Super (props);
+this.state = {
+data: "www.javatpoint.com"
+}
+this.handleEvent = this.handleEvent.bind (this);
+handleEvent () {
+Console.log(this.props);
+} render() {
+return (
+<div className = "App">
+<h2> React Constructor </h2>
+<input type = "text" value = { this.state. data} />
+<button onclick = {this.handleEvent } >
+Please Click </button>
+</div>
+
+**Page 38**
+TOPPER
+WORLD
+classmate
+Date
+Page 34
+); }}
+export default App;
+Main-Js
+import React from 'react';
+import React Dom from 'react-dom';
+import App from './App.JS';
+React Dom. render (<App />. document.get-
+Element By Id ('app'));
+localhost:8088
+React Constructor Example
+www.javatpoint.com
+Please Cick
+Arrow Function:-
+The arrow function is the new feature
+ES6 standard. If you need to use arrow
+functions. It is not necessary to bind
+any event to 'this'.
+import React, { Component } from 'react';
+class App extends Component {
+Constructor (props) {
+Super (props);
+this.state = {
+data: 'www.javatpoint.com'
+}}
+handleEvent = () => {
+Console.log (this.props);
+}
+
+**Page 39**
+TOPPER
+WORLD
+classmate
+Date
+Page 35
+render() {
+return (
+<div className = 'App'>
+<h2> React Constructor </h2>
+<input type = "text" value={this.state. data}/>
+<button onclick = { this.handleEvent } >
+Please Click </button>
+</div>
+); }}
+export default App;
+React Component API.
+React JS Componetht is a top-level API. It makes
+the code completly individual and reusable
+in the application. It includes various method
+• creating element.
+• Transforming element.
+• Fragments.
+① setState()
+This method is used to update state of the
+component. This method does not always re-
+place the state immediatly. It only adds change
+to the original state. It is primary method
+that is used to update the user interface (UI)
+in response (UI) in event handler and server
+response.
+this.setState (object newState [, function
+Callback]);
+
+**Page 40**
+TOPPER
+WORLD
+classmate
+Date
+Page 36
+import React, {component } from 'react';
+import PropTypes from 'prop-types';
+Class App extends React.Component {
+Constructor () {
+Super ();
+this.state = {
+msg = "Welcome to JavaTpoint"
+};
+this.updateSetState = this.updateSetState
+.bind (this);
+}
+UpdateSetState () {
+this.setState({
+msg: "Its best tutorial".
+});
+}
+render () {
+return (
+<div>
+<h1> {this.State.msg } </h1>
+<button onclick = { this.updateState } >
+SetSTATE </button>
+</div>
+); }}
+export default App;
+Main-Js
+import React from 'react';
+Import ReactDom from 'react-dom';
+Import App from './App. Js';
+React Dom. render (<App/>, document.getElem-
+ntById('app'));
+
+**Page 41**
+classmate
+TOPPER
+WORLD
+Date
+Page 37
+localhost
+Welcome to JavaTpoint
+SET STATE
+When you click on SET STATE button, you will
+See following screen with updated message.
+localhost:8080
+Its a best ReactJS tutorial
+SET STATE
+forceUpdate()
+This method allows us to update the component
+manually.
+Component.forceUpdate (callback);
+Example. App.Js.
+import React, {component } from 'react';
+class App extends React.Component {
+constructor () {
+Super();
+this.forceUpdateState = this.forceUpdateState.
+bind (this);
+}
+forceUpdateState() {
+this.forceUpdate ();
+}
+render() {
+return (
+
+**Page 42**
+TOPPER
+WORLD
+CLASSMATE
+Date
+Page 38
+<div>
+<h1> Example to generate random Numbers </h1>
+<h3> Random number; { Math.random()}</h3>
+<button onClick = { this.forceUpdateState } >
+Force Update </button>
+</div>
+); } }
+export default App;
+localhost:8080
+Example to generate random number
+Random number: 0.569340182080752
+ForceUpdate
+Each time when you click on Force Update
+button.
+localhost:8080
+Example to generate random number
+Random number: 0.31739060740251257
+ForceUpdate
+findDomNode()
+For Dom manipulation, you need to use
+ReactDom.findDomNode() method. This met-
+hod allows us to find or access the underl-
+ying Dom node.
+React Dom.findDomNode (component);
+
+**Page 43**
+TOPPER
+WORLD
+classmate
+Date
+Page 39
+App.Js
+import React { Component } from 'react';
+import React Dom from 'react-dom';
+class App extends React.Component {
+Constructor () {
+Super ();
+this.findDomNodeHodler 1 = this.findDomNode-
+Handler 1. bind (this);
+this.findDomNodeHandler 2 = this.findDomNode-
+Handler 2. bind (this);
+};
+findDomNodeHandler1() {
+var myDiv = document.getElementById("
+my Div One');
+ReactDom. findDomNode (my Div One).style.
+color='red';
+}
+findDomNodeHandler2(){
+var myDiv = document.getElement By Id
+('my Div Two');
+ReactDom. findDomNode (my Div Two).style
+Color = 'blue';
+}
+render (){
+return (
+<div>
+<h1> ReactJs Find Dom Node Example </h1>
+<button onclick = { this.findDomNodeHandler 1}>
+FIND_DOM_NODE 1 </button>
+<button onclick ={this.findDomNodeHandler2}>
+FIND-Dom- NODE 2 </button>
+<h3 id = "myDivOne"> JTP-Node1</h3>
+
+**Page 44**
+TOPPER
+WORLD
+classmate
+Date
+Page 40
+<button onClick = { this.forceUpdateState } >
+Force Update </button>
+</div>
+);
+} }
+export default App;
+localhost:8080
+ReactJS Find DOM Node Example
+FIND DOM NODE1 FIND DOM NODE2
+JTP-NODE1
+JTP-NODE2
+Ones you click on the button, the color
+of the node gets changed.
+localhost:8080
+ReactJS Find DOM Node Example
+FIND DOM NODE1 FIND DOM NODE2
+JTP-NODE 1
+JTP-NODE2
+React Component Life-Cycle.
+In React Js, every component creation proces-
+s involves various lifecycle methods. These
+lifecycle methods are termed as component
+lifecycle. These lifecycle methods are not
+Very complicated and called at various dur-
+ing a componants life.
+Initial Mounting Updating Unmounting
+Phase phase phase Phase.
+
+**Page 45**
+classmate
+TOPPER
+WORLD
+Date
+Page 41
+① Initial Phase -
+• getDefaultProps().
+It is used to specify the default value of
+this.props. It is invoked before the creation
+of the component or any props from the
+parent is passed into it.
+• getInitialPhase()
+It is used to specify the default value of
+this.state. It is invoked before the creation
+of the component.
+② Mounting Phase
+• ComponentWillMount ()
+This is invoked immediately before a component
+gets renderded into the Dom. In the case
+When you call setState() inside this method.
+• ComponentDidMount ()
+This is invoked immediatly after component
+gets rendered and placed on the Dom. You
+can do any Dom querying operations.
+• render()
+This method is defined in each and every
+component. It is responsibble returning
+a single root HTML node element.
+③ Updating Phase.
+• ComponentWillRecieveProps ()
+It is invoked when a component receives
+new props. If you want to update the
+
+**Page 46**
+TOPPER
+WORLD
+Date
+Page 42
+state in response to prop changes, you shoul-
+d compare this. Props and nextprops to perform
+state transition by using this.setState()
+• ShouldComponentUpdate()
+It is invoked when a component decides
+updating occures.
+• ComponentWillUpdate()
+It is invoked just before the component
+updating occurs. Here you can't change the
+Component state by invoking. this.setState()
+method.
+• ComponentDidUpdate()
+It is invoked immediatly after the compe-
+nent updating occurs. In this method, you can
+put any course inside this.
+④ Unmounting Phase
+ComponentWillUnmount()
+This method is invoked immediatly before a
+Component is destroyed permanantly. It perfor-
+ms necessary cleanup.
+React Forms:-
+Form are an internal part of any modern
+web application. It allows the users to interac-
+t with the applications as well as gather
+Information from the user. Forms can perf-
+orm many tasks that depends on the
+nature of your bulsness requirements and
+
+**Page 47**
+TOPPER
+WORLD
+CLASSMATE
+Date
+Page 43
+logic such as authentication of the user.
+Creating Form:-
+React offers a stateful, reactive approch to
+build a form. The component rather than Dom
+usually handles the React form.
+① Uncontrolled component.
+② Controlled component.
+① Uncontrolled Component :-
+The uncontrolled component input is simillar
+to the traditional HTML form input. The Dom
+itself handles the form data. The HTML element
+maintain their own state that will be updated
+when the input values changes. To write an
+uncontrolled component.
+import React, {component } from 'react';
+Class App extends React.Component {
+Constructor (props) {
+Super (props);
+this.updateSubmit = this.updateSubmit.
+bind (this);
+this.input = React.CreateRef();
+}
+UpdateSubmit (event) {
+alert ("You have entered the username and
+CompanyName successfully");
+event.preventDefault();
+}
+render() {
+
+**Page 48**
+TOPPER
+WORLD
+classmate
+Date
+Page 44
+return()
+<form onsubmit= { this.updateSubmit }>
+<h1> Uncontrolled Form </h1>
+<label> Name:
+<input type = "text" ref = { this.input } />
+</label>
+<label>
+Company Name:
+<input type = "text" ref={this.input} />
+</label>
+</form>
+);
+}
+}
+export default App;
+localhost:8080
+Uncontrolled Form Example
+Name:
+Company Name:
+Submit
+localhost:8080
+Uncontrolled Form Example
+Name: Abhralick
+Company Name: Javatpuent
+localhost:8080 says
+You have entered the UserName and CompanyName
+successfully
+OK
+Controlled Component.
+Controlled component have functions that gov-
+ern the data passing into them on every
+onChange event; rather than grabbing the
+data only ones.
+
+**Page 49**
+TOPPER
+WORLD
+import React {Component } from 'react';
+class App extends React.Component {
+Constructor (props) {
+Super (props);
+this.state = {value:" "};
+classmate
+Date
+Page 45
+this.handleChange = this.handleChange.bind
+(this).
+this.handleSubmit = this.handleSubmit.bind(this);
+}
+handleChange (event) {
+this.setState({value: event.target.value)})
+}
+handleSubmit (event) {
+Alert ("You have submitted the input success-
+fully:'+ this.state. value);
+event.preventDefault ();
+}
+render () {
+return(
+<form onSubmit = { this.handleSubmit } >
+<h1> Controlled Form </h1>
+<label>
+Name:
+<input type="text" value = { this.state.value}
+onChange = {this.handleChange } />
+</label>
+<input type = "submit" value="Submit "/>
+</form>
+);
+}
+}
+export Default App;
+
+**Page 50**
+TOPPER
+WORLD
+Classmate
+Date
+Page 46
+Controlled Componant Vs Uncontrolled Component.
+Controlled Uncontrolled.
+It does not maintain It maintains internal
+internal state State.
+Data is controlled by Data is controlled by a
+parent component Dom itself.
+It accept the current It uses a ref for their
+Value as a prop current values.
+It allows validation It does not allow
+Control Validation control.
+It has better Control It has limited control
+over the form ele- over the form and
+ments and data elements.
+React Events -
+React has its own event handling system
+which is very simillar to handling events.
+on Dom elements. The react event handling
+System is known as Synthetic Events. The
+Synthetic events is a a cross browser
+wrapper of the browser native event.
+① React events are named as Camel Case
+insted of lowercase.
+
+**Page 51**
+TOPPER
+WORLD
+Builds/Modifies
+Builds/Modifies
+App
+React Virtual
+DOM
+Delivers events
+Delivers events
+classmate
+Date
+Page 47
+DOM
+② A function is passed as a event handler insted
+of a string.
+For declaration in plain HTML:-
+<button onclick = "showMessage()">
+Hellow JavaTpoint
+</button>
+Event declaration in React:-
+<button onClick = {showMessage}>
+Hellow JavaTpoint
+</button>
+③ In react, we cannot return false to prevent the
+default behaviour we must call prevent Default
+event explicitly to prevent the
+Example:-
+import React, {Component } from 'react'
+class App extends React Component {
+constructor (props) {
+Super (props)
+this.state = {
+Company Name = "
+
+**Page 52**
+TOPPER
+WORLD
+Date
+Page 48
+};
+Change Text (event) {
+this.setState({
+CompanyName: event.target.value
+});
+}
+render () {
+return (){
+<div>
+<h2> Simple Event </h2>
+<label htmlFor="name"> Enter Company
+Name </label>
+<input type="text" id="CompanyName"
+onchange = { this.changeText.bind(this)} />
+<h4> You entered ; {this.state. company.
+Name } </h4>
+</div>
+);
+}
+}
+export default App;
+localhost:8080
+Simple Event Example
+Enter company name:
+You entered:
+localhost:8080
+Simple Event Example
+Enter company name: www.javatpoint.com
+You entered: www.javatpoint.com
+
+**Page 53**
+TOPPER
+WORLD
+classmate
+Date
+Page 49
+React Conditional Rendering:-
+There is more than one way to do conditional
+rendering in React.
+• It is the easiest way to have conditi-
+onal rendering in React in the render method.
+function UserLogin (props) {
+return <h1> Welcome Back </h1>;
+}
+function GuestLogin (props) {
+return <h1> Please Sign Up </h1>
+}
+function Signup (props) {
+const isLoggedIn = props.isLoggedIn;
+if (isLoggedIn ) {
+return <UserLogin/>;
+}
+return <GuestLogin/>;
+}
+React Dom. render (
+<Signup isLoggedIn = { false } />,
+document.getElementById ('root')
+);
+Logical && operator.
+The operator is used to checking the conditi-
+on.
+import React from 'react';
+import React Dom from 'react-Dom';
+function Example() {
+
+**Page 54**
+TOPPER
+WORLD
+classmate
+Date
+Page 50
+return (<div>
+{ (10 > 5) && alert ('This alert will be
+Shown!')}
+</div>
+);
+}
+Ternary Operator :-
+render (){
+const isLoggedIn = this.state.isLoggedIn;
+return (
+<div>
+Welcome {isLoggedIn ? 'Back' : 'Please login'}
+</div>
+);
+}
+Switch Case Operator
+functional NotificationMsg ({ text)) {
+Switch (text) {
+case 'Hi all';
+return <Message: text = { text } />;
+case "Hellow JavaTpoint
+return <Message text = { text } />;
+default
+return null;
+}
+}
+
+**Page 55**
+TOPPER
+WORLD
+classmate
+Date
+Page 51
+Conditional Rendering with enums
+An enum is a great way to have a multiple
+Conditional rendering. It is more readable as com-
+pared to switch case operator.
+function NotificationMsg ({text, state }) {
+return (
+<div>
+{{
+info. < Message. text = {text} />
+warning: <Message text = {text} />.
+}[state]}
+</div>
+);
+}
+React Lists:-
+Lists are used to display in an ordered forma-
+t and mainly used to display menus on Websit-
+e. The map() function is used to traversing
+the list. Include the new list <ul> </ul> ele-
+ments and render it to dom.
+import React from 'react';
+import React Dom from 'react-dom';
+const mylist = ['Peter', 'Sachin', 'Kelvin', 'Dhoni',
+'Alisa'];
+Const myListItems = myList. map ((myList)=> {
+return <li> { mylist } </li>
+});
+React Dom.render (
+<ul> {listItems}</ul>
+
+**Page 56**
+TOPPER
+WORLD
+classmate
+Date
+Page 52
+document.getElementById ('app')
+);
+export default App;
+Output.
+localhost:8080
+Peter
+Sachin
+Kevin
+Dhoni
+Alisa
+React Keys -
+A key is unique identifier. In React, It is
+used to identify which items have changed,
+updated or deleted from the lists. It is
+useful when we dynamically created compo-
+nent or when the user alert the Lists.
+It also helps to determine which component
+in a collection need to be rendered insted
+of re-rendering the entire set of components
+every time.
+const stringList = ['Peter', 'Sachin, 'Kevin',
+'Dhoni', 'Alisa'];
+const updatedlists = StringLists.map((StrList, index)=>
+<li key = {strList.id} > {strList} </li>
+});
+If there are no stable IDs for rendere-
+d items, you can assign the item index
+as a key of the lists. It can be shown in
+the below,
+
+**Page 57**
+TOPPER
+WORLD
+classmate
+Date
+Page 53
+- Const stringLists = ['Peter', 'Suchin', 'Kevin', 'Dhoni',
+Alisa'];
+Const updatedLists = StringLists.map ((strList, index)=>
+{
+<li key = {index} > {strList } </li>
+});
+React Refs:-
+Refs is the Shorthand used for referances in Reac-
+t. It is an attribute which makes it possible to
+Store a referance to particular DOM nodes or React
+elements. It provides a way to acess React
+Dom nodes or React elements and how to intera-
+ct with it.
+When to Use Refs:-
+• When we need Dom measurements such as
+managing focus, text selection, or media
+playback.
+• It is used triggring imperative animations.
+• When integrating with third-party Dom
+libraries.
+• It can also use as in callbacks.
+When to not use Refs:-
+• It is use should be avoided for identify
+anything that can be done, declaratively.
+insted of using open() and close() methods
+on a Dialog component, you need to pass
+an isOpen prop to it.
+• You should have to avoid overuse of the Refs.
+
+**Page 58**
+TOPPER
+WORLD
+CLASSMATE
+Date
+Page 54
+How to create. Refs.
+In React. Refs can be created by using
+React.createRef (). It can be assigned
+to React Clement via the ref attribute.
+It is commonly assigned to an instance
+property when a component is created
+and them can be referenced throughout the
+component.
+class MyComponent extends React.Component {
+Constructor (props) {
+Super (props);
+this.callRef = React.createRef();
+}
+render (){
+return <div ref = { this.callRef } />
+} }
+How to access Ref's
+When a ref is passed to an element inside
+render method. a referance to the node
+can be accessed via the current atribute
+of the ref.
+const node = this.callRef.current;
+Ref current Properties
+When the ref attribute is used in HTML
+element, the ref Created with React.
+createRef () receives, the underlying.
+Dom element as its current property.
+
+**Page 59**
+TOPPER
+WORLD
+classmate
+Date
+Page 55
+• If the ref attribute is used on a custom class
+Component then ref object receives the mou-
+nted instance of the component as its current
+property.
+• The ref attribute cannot be used to on functior-
+nal component because they dont have instances.
+Callback Refs:-
+There is another way to use refs that is called
+'callback refs' and it gives more control when
+the refs are set and unset. Insted of creating
+refs by passing a callback function to the ref
+attribute of a component.
+<input type="text" ref = {element => this.Call-
+RefInput = element}/>
+The callback function is used to store a referance
+to the Dom node in an instance property and
+Can be accessed elsewhere.
+this.call Ref Input.value.
+React with useRef ( )
+It is introduced in React 16.7 and above versior-
+n. It helps to get access the Dom node element
+and the we can interact with the Dom
+node or element such as focusing the elem-
+ent or accessing the input element value.
+It returns the ref object whose current
+property initiallized to the passed argument.
+
+**Page 60**
+TOPPER
+WORLD
+CLASSMATE
+Date
+Page 56
+const refContainer = useRef (initial Value);
+function useRefExample () {
+Const inputRef = useRef (null);
+Const onButtonClick = () => {
+inputRef.current.focus();
+};
+return (
+<>
+<input ref = { inputRef} type="text" />
+<button onClick = { onButtonClick}> Submit
+</button>
+</>
+);
+}
+React Fragments:-
+The render method can return single ele-
+ments or multiple element. The render
+method will only render a single, node
+inside at a time.
+class App extends React.Component {
+render() {
+return (
+<div>
+<h2> Hellow World </h2>
+<P> Welcome to the JavaTpoint </P>
+</div>
+);
+}
+}
+
+**Page 61**
+TOPPER
+WORLD
+classmate
+Date
+Page 57
+Syntax:-
+<React Fragment>
+<h2> Child 1 </h2>
+<P> Child 2 </P>
+</React-Fragment >
+Why we use Fragments?
+① It makes the execution of code faster as com-
+pared to the div tag.
+② It take less Memory.
+Fragments Short Syntax:-
+There is also another shorthand exists for
+declaring fragments for the above method. It
+looks like empty tag in which we can use
+'<>' and insted of the 'React.Fragment'
+Class Colums extend React.Component {
+render() {
+return (
+<>
+<h2> Hello World! </h2>
+<P> Welcome to the JavaTpoint </P>
+</>
+);
+}
+}
+Key Fragments:-
+The shorthand syntax does not accept key.
+
+**Page 62**
+TOPPER
+WORLD
+Classmate
+Date
+Page 58
+key attribute. You need a key for mappi-
+ng a collection to an array of fragments su-
+ch as to create a description list.
+Function = (props) {
+return (
+<Fragment>
+{ props.item.data.map (item=> (
+<React. Fragment key = {item.id } >
+<h2> {item.name}</h2>
+<P>{item.url} </p>
+<P>{item.description}</P>
+</React. Fragment >
+))}
+</Fragment>
+)
+}
+React Router:-
+Routing is a process in which a user is dire-
+cted to diffrent pages based on their action
+or request. ReactJs Router mainly use
+for developing Single Page application.
+React Router is used to define multi-
+ple routes in the application.
+React Route is a Standard library syste-
+m built on the Top of the React and use-
+d to create routing in the React applice-
+ation using React Router package. It provid-
+es the Synchronous URL on the browser
+with data that will be displayed or
+the web page.
+
+**Page 63**
+TOPPER
+WORLD
+CLASSMATE
+Date
+Page 59
+React contain 3 diffrent package of routing
+① react-router : It provides the core routing
+Componants and function for the React Router
+application.
+② react-router-native:-
+It is used for mobile application.
+③ react-router-dom :-
+It is used for web application design.
+$ npm install react-router-dom --save
+Components in React Router.
+<Browser Router >
+It is used for handling URL
+<Hash Router>
+- It is used to handling Static request.
+Benefits of React Router:-
+① It is not necessary to set the browser history
+manually.
+② Link uses a navigate the internal links in the
+application. It is simillar to anchor tag.
+③ It uses switch feature for rendering.
+④ If the router needs only a single child
+element.
+
+**Page 64**
+TOPPER
+WORLD
+classmate
+Date
+Page 60
+React CSS
+CSS in React is used to style the React App
+Or component. The Style attribule is the most
+attribute for styling in React applications.
+Which adds dynamically - computed Styles at
+render time. It accepts a javascript object
+in camelcased properties rather than css
+String.
+① Inline Styling
+The inline styles are specified with a javas-
+cript object in camelcase version of the
+Style name. Its value is the styles value
+which we usually take in a string.
+AppJs
+import React from 'react';
+Import ReactDom from 'react-dom';
+class App extends. React Component {
+render() {
+return (
+<div>
+<h1 style = {{ color: "Green"}} Hello JavaTpoint</h1>
+<P> Here you can find all Cs Tutorials </P>
+</div>
+);
+}
+}
+export default App:
+
+**Page 65**
+Classmate
+TOPPER
+WORLD
+Date
+Page 61
+② CSS Stylesheet:-
+You can write styling in a seperate file for your
+React application, and save the file with a
+css extension. You can import the file in your
+application.
+App.Js.
+import React from 'react';
+import ReactDom from 'react-dom';
+import './App.CSS';
+class App extends React Component {
+render (
+<div>
+<h1> Hello JavaTpoint </h1>
+<p> You can find all cs tutorials </P>
+</div>
+);
+} }
+export default App;
+App.CSS
+body {
+background color: #008080;
+Color: yellow;
+padding: 40px;
+font-family: Arial;
+text-align: center;
+}
+Index. html
+<!DOCTYPE html>
+<html lang="en">
+
+**Page 66**
+TOPPER
+WORLD
+classmate
+Date
+Page 62
+<head>
+<meta charset="utf-8" />
+<meta name="viewport"
+content = "width=device-width,
+initial-scale=1"/>
+<title> React App </title>
+</head>
+<body>
+<div id="app"> </div>
+</body>
+</html>
+localhost:8088
+Hello JavaTpoint!
+Here, you can find all CS tutorials.
+CSS Module
+Css Module is another way of adding styles.
+to your application. In a css file where
+all class names and animation names
+are scoped locally by default. It is avail-
+able only for the component which impo-
+rts means any styling you add can never
+be applied to other components without
+your permission, and you never need to
+worry about name conflicts.
+App. Js.
+import React from 'react';
+import React Dom From 'react-dom';
+import Styles from './myStyles.modules.CSS
+
+**Page 67**
+TOPPER
+WORLD
+classmate
+Date
+Page 63
+class App extends React. component {
+render() {
+return (
+<div>
+<h1 className = {style.mystyle } > Hellow JavaTpoint</h1>
+<P className = {style.parastyle} It provides great
+Cs tutorials </p>
+</div>
+);
+}
+}
+export default App;
+mystyles.module.css
+.mystyle {
+background-color:#cdcobo;
+Color: Red;
+padding: 10px;
+font-family: Arial;
+text-align: center;
+}
+.parastyle {
+Color: Green;
+font-family: Arial;
+font-size: = 35px;
+text-align: center;
+}
+localhost:3000
+Hello JavaTpoint
+It provides great CS tutorials.
+
+**Page 68**
+TOPPER
+WORLD
+classmate
+Date
+Page 64
+4. Styled Component:-
+Styled component is a library for React. It
+uses enhance css for styling React componer-
+t System in your application which is written
+with mixture of Javascript and CSS.
+The styled component provides.
+• Automatic Critical css.
+• No class name bugs.
+• Easier deletion of Css.
+• Simple dynamic styling
+• painless maintenance.
+React Animation.
+The animation is a technique in which images.
+are manipulated to appear as moving images.
+It is one of the most used technique to
+make interactive web application.
+React Transition group has mainly 2 API
+Create Transition.
+① React Transition Group:-
+It uses as low-level API for animation.
+② React Css Transition Group:-
+It uses as a high level API for implementing.
+basic CSs transitions and animations.
+React Transition Group Component.
+Provides 3 main component.
+① Transition
+② Css Transition
+
+**Page 69**
+TOPPER
+WORLD
+Classmate
+Date
+Page 65
+Transition Group.
+Transition:- It has a simple component API to declare
+a transition from one component state to another
+over time. It is mainly used to animate the
+mounting and unmounting of a component. It
+can also be used fro in-place transition state
+as well.
+① entering
+③ existing
+CSS Transition:-
+② entered
+④ exited.
+The CSS transition component uses stylesheet
+classes to write the transition and create
+animations. It is inspired by the ng-animate
+library. It can also inherit all the props of the
+transition component.
+• Appear
+• Enter
+• Exist.
+Transition Group:-
+This component is used to manage a set of
+transition component in a list. It is a state
+machine that controls the mounting and un-
+mounting Components overtime. The transition
+Component does not define any animation
+directly. 'Transition Group' component can have
+diffrent animation with a component.
+
+**Page 70**
+TOPPER
+WORLD
+classmate
+Date
+Page 66
+App.Js
+import React, {component } from 'react';
+Import {CSS Transition Group } from 'react-transitic-
+group';
+class App extends React. Component {
+Constructor (props) {
+Super (props);
+this.state = {items: ['Blockchain', 'ReactJs',
+'TypeScript', 'JavaTpoint']};
+this.handleAdd = this.handleAdd.bind (this);
+}
+handleAdd () {
+Const newsItems = this.state.items.concat(
+prompt ('Enter Item Name:').
+trim());
+this.setState ({items: newsItems });
+}
+handleRemove (i) {
+let newItems = this.state.items.slice ();
+newItems.splice (i, 1);
+this.setState ({items: newItems });
+}
+render() {
+const items = this.state.items.map ((item, i) => (
+<div key = { item } onclick = { () =>
+this.handleRemove (i)} >
+{item}
+</div>
+));
+return (
+<div>
+<h1> Animation Examples </h1>
+
+**Page 71**
+TOPPER
+WORLD
+classmate
+Date
+Page 67
+<button onClick={ this.handleAdd } > Insert them
+</button>
+<CSSTransitionGroup
+transitionName = "example"
+transitionEnterTimeOut = {800}
+transitionLeaveTimeout = {600} >
+{items}
+</CSSTransitionGroup >
+</div>
+);
+}
+}
+export default App;
+Main. Js
+import React from 'react';
+import React Dom from 'react-dom';
+import App from './App.JS';
+ReactDom.render (<App />, document.getElementById
+('app'));
+Style. Css
+.example-enter{
+opacity: 0.01;
+}
+.example-enter.example-enter-active {
+opacity: 1;
+transition: opacity 500 ms ease-in;
+}
+• example-leave {
+Opacity: 1;
+}
+
+**Page 72**
+TOPPER
+WORLD
+classmate
+Date
+Page 68
+.example-leave.example-leave-active {
+opacity: 0.01;
+transition: Opacity 300ms ease-in;
+}
+localhost:8088
+Animation Example
+Insert Item
+Blockchain
+ReactJS
+TypeScript
+JavaTpoint
+localhost:8088
+Animation Example
+localhost:8088 says
+Enter Item Name
+PDFBOX
+Blockchain
+ReactJS
+TypeScript
+JavaTpoint
+Cancel
+OK
+localhost:8088
+Animation Example
+Insert item
+Blockchain
+ReactJS
+TypeScrip
+JavaTpoint
+PDFBox
+React Map :-
+A map is a data collection type where data
+is stored in the form of pairs. It contains
+a unique Key. The value stored in the
+map must be mapped to the key. We
+Cannot store duplicate pair in the map.
+It is because of the uniquness of each
+stored key. It is mainly used for fast
+Searching and looking up data.
+
+**Page 73**
+TOPPER
+WORLD
+classmate
+Date
+Page 69
+In React, the map() method used for:
+① Traversing the list element.
+import React from 'react';
+import React Dom from 'react-dom';
+function NameList (props) {
+const myList (props) {
+Const listItems = myList.map((myList) => (
+<li> {myList } </li>
+));
+return (
+<div>
+<h2> React Map example </h2>
+<ul> {listItems } </ul>
+</div>
+);
+}
+}
+const mylists = ['A', 'B', 'C','D'];
+React Dom.render (
+<Namelist myList = {myLists} />,
+document.getElementById ('app')
+);
+export default App;
+Output-
+localhost:8080
+React Map Example
+A
+B
+C
+D
+
+**Page 74**
+TOPPER
+WORLD
+classmate
+Date
+Page 70
+React Table -
+A table is an arrangement which organizes
+information into 'rows and columns. It is
+used to store and display data in a struct-
+ured format.
+The react-table is light weight, fast, fully
+Customizable and extendable Datagrid built
+for React. It is fully controllable via optional
+props and callbacks.
+Features:-
+① It is lightweight at 11 kb.
+② It is fully customizable.
+③ It is fully controllable via optional props
+and Callbacks.
+④ It has client-Side & Servr-side pagination.
+⑤ It has filters.
+⑥ Pivoting & Aggregation.
+⑦ Minimal design & easily themeble.
+Import React, { Component } from 'react';
+import React Table from "react-table";
+import "react-table/react-table.css";
+class App extends Component {
+render (){
+const data = [{
+name: "Ityaan",
+age: 26,
+},
+{
+name: 'Ahana',
+age: 22
+},
+
+**Page 75**
+TOPPER
+WORLD
+Classmate
+Date
+Page 71
+{
+name: 'Peter',
+age: 40
+},
+{
+name: 'Dhoni'.
+age: 37
+}
+]
+Const columns = [{
+Header: 'Name'.
+accessor: 'name'
+}, {
+Header: 'Age',
+accessor: 'age'
+}]
+return (
+<div>
+<React Table
+data = {data}
+Columns = {columns}
+defaultPageSize = {2}
+pageSizeOptions = {[2,4,6]}
+/>
+</div>
+); } }
+export default App;
+React Higher-Order Component
+It also known as Hoc. In React, HOC is an
+advanced technique for reusing component logic.
+It is a function that takes a component and
+returns a new component.
+const NewComponent = higher Order Component
+(wrapped Component)
+
+**Page 76**
+TOPPER
+WORLD
+classmate
+Date
+Page 72
+HOC.JS
+import React, { Component } from 'react';
+export default function HOC (HOC Component){
+return class extends Component {
+render() {
+return (
+<div>
+<HocComponent> </HOCComponent>
+</div>
+); } } }
+App. Js
+import React {component } from 'react';
+import Hoc from './HOC';
+Class App extends Component {
+render (
+<div>
+<h2> HOC Example </h2>
+JavaTpoint provides best CS Tutorial
+</div>
+) } } }
+App = HOC (App);
+export default App;
+Output-
+localhost:3000
+HOC Example
+JavaTpoint provides best CS tutorials.
+
+**Page 77**
+TOPPER
+WORLD
+CLASSMATE
+Date
+Page 73
+React Code Splitting -
+The react app budled their files using tools like
+Webpack or Browsefy, Bundling is a process
+which takes multiple files and merge them
+into a single file, Which is called bundle. The
+bundle is responsible for loading an entire app
+at ones on the webpage.
+Code splitting improves:-
+① The performance of the app.
+② The Impact on memory.
+③ The downloadable killobytes size.
+React.lazy:-
+The best way for code splitting into the app
+is through the dynamic import () Syntax. The
+React.lazy function allows us to render a dyn-
+amic import as a regular component.
+Before:-
+Import Example Component from './Example.Component';
+function My Component () {
+return (
+<div>
+<Example.Component />
+</div>
+);
+}
+After:-
+Const Example Component = React.lazy (() =>
+import('./ExampleComponent'));
+
+**Page 78**
+TOPPER
+WORLD
+classmate
+Date
+Page 74
+function MyComponent() {
+return (
+<div>
+<Example Component/>
+</div>
+);
+}
+Error Boundaries:-
+If any module fails to load, for example,
+due to network failure, we will get an
+error. We can handle these errors with
+Error Boundaries. Ones we have created the
+Error Boundary, we can use it anywhere.
+import MyErrorBoundary from './MyError.Boundary';
+const ExampleComponent = React.lazy (() =>
+import('./ExampleComponent'));
+Const MyComponent = () => (
+<div>
+<MyErrorBoundary >
+Suspence fallback = { <div> loading </div> } >
+<section>
+<ExampleComponent/>
+</section>
+</suspense>
+</MyErrorBoundary>
+</div>
+);
+
+**Page 79**
+TOPPER
+WORLD
+classmate
+Date
+Page 75
+React Context:-
+Context allows passing data through the compo-
+nent tree without passing props down man-
+ually at every level.
+React Context API:-
+① React.createContext
+② Context.provider.
+③ Context.Consumer.
+④ class.context Type.
+① React.createContext:-
+It creates a context object.
+Const MyContext = React.createContext. (default.value);
+② Context.Provider :-
+Every Context object has a provider React compon-
+ent which allows consuming components to
+Subscribe to context changes.
+<MyContext.Provider value = { /* Some value */ } >
+③ Context.Consumer.
+It is an React Component which subscribes
+to the context changes. It allows us to the
+context within an function.
+<My Context.Consumer >
+{value => /* render something which is
+based on the context value */ } >
+
+**Page 80**
+TOPPER
+WORLD
+classmate
+Date
+Page 76
+Class context Type:-
+The context Type property on a class used to
+assign a context object which is created by
+React.createContext (). It allows you to con-
+sume the closet current value of that contex-
+t using this.context.
+import React, {component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+Const BtnColorContext = React.createContext(
+"btn btn-dark yellow");
+class App extends Component {
+render () {
+return (
+<BtnColorContext. Provider value = 'btn btn-info' >
+<Button />
+</BtnColorContext. Provider >
+);
+}
+}
+function Button (props) {
+return (
+<div className = "container">
+<ThemedButton />
+</div>
+);
+}
+class ThemedButton extends Component {
+Static context Type = Btn Color Context;
+render(){
+return <button className = { this.context } >
+Welcome to JavaTpoint
+
+**Page 81**
+TOPPER
+WORLD
+classmate
+Date
+Page 77
+</button>
+}
+}
+export default App;
+React App
+X
+C
+localhost:3000
++
+welcome to javatpoint
+React Hooks:-
+Hooks are the new feature introduced in React
+16.8 version. It allows you to use state and
+other React feature without writing a class.
+Rules of Hooks:-
+① Only call Hooks at the top level.
+② Only call Hooks from React functions.
+Hooks State :-
+Hook state is the new way of declaring
+a state in React app. Hook uses useState()
+functional component for setting and retrivin-
+g state.
+App.Js
+import React, {useState } from 'react';
+
+**Page 82**
+TOPPER
+WORLD
+classmate
+Date
+Page 78
+function CountApp() {
+const [count, setCount] = useState (0);
+return (
+<div>
+<p> You clicked { count } times </P>
+<button onClick = { () => setCount (count + 1)}>
+Click me
+</button>
+</div>
+);
+}
+export default CountApp
+React App
+X
+C
+localhost:3000
++
+React Flux Vs Mvc
+mvc
+MVC stands for Model View Controller. It is
+an architectural pattern used for developing
+the user interface.
+mvc Architecture:-
+Model:- It is responsible for maintaining th-
+e behaviour and data of an application.
+View:- It is used to display the model in
+the user interface.
+Controller:- It acts as an interfure between
+
+**Page 83**
+TOPPER
+WORLD
+classmate
+Date
+Page 79
+the model and the view Components. It takes
+user input, manipulates the data and causes
+View
+You clicked 4 times.
+Click me
+MODEL
+UPDATES
+MANIPULATES
+VIEW
+CONTROLLER
+SEES
+USER
+MVC Architecture
+USES
+Flux:
+Flux is an application architecture that Facebook
+uses for building client-side web application
+Flux architecture has 3 Major rules in dealing
+with data:-
+① Dispatcher ② Store ③ views.
+Action Creator (helper method)
+create an action from method
+parameter, assign it a type, and
+then provide to the dispatcher.
+Action
+Action
+Dispatcher
+Store
+View
+Dispatcher acts as a central
+hub. It sends every action to
+all stores via the callbacks
+that have registered with it.
+It updates themselves in
+response to an action,
+emit the change event to
+alert the controller view.
+Controller view listens for change
+events, retrieve new data from
+the stores, and provide the new
+data to their descendants in the
+component tree.
+
+**Page 84**
+TOPPER
+WORLD
+classmate
+Date
+Page 80
+MVC Flux
+① It is introduced in It was introduced
+1976 just a few years ago.
+② It suppports Bi-direction- It support Uni-directio-
+al data flow model nal data flow model.
+③ In this, data binding In this events or actio-
+is the key are key.
+④ It is synchronous It is asynchronous.
+⑤ Controllers handle Store handle all logis.
+everything
+⑥ It is hard to debug It is easy to debug.
+⑦ It is difficult to It is easy to the
+Understand as project understand.
+Size increases
+⑧ Its maintainability It maintainability is
+is difficult as the Easy and reduces run-
+project scope goes time errors.
+huge.
+⑨ Testing of application Testing of application
+is difficult. is easy.
+⑩ Scalability is complex It can be easily sca-
+lable.
+
+**Page 85**
+TOPPER
+WORLD
+classmate
+Date
+Page 81
+React Redux:-
+Redux was inspried by flux. Redux studied the
+Flux architecture.
+① Redux does not have dispatcher concept.
+② Redux has an only store whereas Flux has
+many Stores.
+③ The Action objects will be received and han-
+dled directly by Store.
+React Architecture :-
+State
+contains
+defines
+Store
+updates
+UI
+triggers
+Reducer
+Actions
+sent to
+Store :- A store is a place where the entire sta-
+te of your application lists. It manages the
+Status of the application and has a dispatch
+function. It is like a brain responsible for all
+moving parts in Redux.
+Action:- Action is sent or dispatched from the
+View has which are payload's that can be
+read by Reducers. It is pure object created.
+
+**Page 86**
+TOPPER
+WORLD
+classmate
+Date
+Page 82
+to the store the information of users event
+It includes information such as type of actio-
+n, time of occurances, location of occurances,
+its coordinates and which state it aims to
+Change
+Reducer:- Reducer reads the payload from the
+action and then updates the store via the
+State accordingly. It is pure function to retur-
+n a new state from the initial state.
+React Portals:-
+It is very tricky to render the child compon-
+ent outside of its parent component hi-
+rarchy. It breaks the convention wher-
+e a component needs to render as a new.
+element and follow a parent-child hierarc-
+hy.
+React Dom.create Portal (child, container)
+Example using Portal :-
+We want to insert a child component int-
+o diffrent location in the Dom.
+render() {
+return React Dom, createPortal (
+this.props. Chilldren.
+my Node,
+);
+}
+
+**Page 87**
+TOPPER
+WORLD
+classmate
+Date
+Page 83
+Features:-
+• It uses React version 16 and its official API
+for creating portal.
+• It has a fallback for React version 15.
+• It transports its chilldren component into a
+new React portal which is appended by
+default to document.body.
+• It can also target user specified Dom element.
+• It supports server-side rendering.
+• It supports returning arrays.
+• It doesn't produce any Dom neess.
+• It does no dependancies, minimalistics.
+When to use?
+① Modals.
+② Tooltips
+③ Floating menus.
+④ Widgets
+Explanation of React. Portal...
+App-Js.
+import React, {Component } from 'react':
+import './App.css'
+import Portal Demo from './Portal Demo.JS';
+Class App extends Component {
+
+**Page 88**
+TOPPER
+WORLD
+classmate
+Date
+Page 84
+render() {
+return (
+<div className = "App">
+<Portal Demo/>
+</div>
+);
+}
+}
+export default App;
+Portal Demo-Js
+import React from 'react'
+import ReactDom from 'react-dom'
+function Portal Demo() {
+return React Dom.Create Portal (
+<h1> Portals Demo</h1>,
+document.getElementById('Portal-root")
+)
+}
+export default PortalDemo
+index.html.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href=
+"%PUBLIC_URL%/favicon.ico" />
+<meta name = "viewport" content=
+"width=device-width, initial-scale=1">
+<meta name = "theme-color" content=
+"#000000"/>
+
+**Page 89**
+TOPPER
+WORLD
+classmate
+Date
+Page 85
+<title> React App </title>
+</head>
+<body>
+<noscript> It required to enable Javascript
+to run this app </noscript>
+<div id = "root"> </div>
+</body>
+</html>
+React App
+X
+C
+localhost:3000
++
+Portals Demo

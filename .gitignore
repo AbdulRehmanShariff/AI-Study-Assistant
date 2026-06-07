@@ -1,0 +1,29 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Uploads & Vector Store
+uploads/*
+!uploads/.gitkeep
+vector_store/*
+!vector_store/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (frontend)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Gemini
+.gemini/

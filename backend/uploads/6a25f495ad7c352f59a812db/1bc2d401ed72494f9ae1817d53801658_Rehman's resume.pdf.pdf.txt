@@ -1,0 +1,80 @@
+K N S  I N S T I T U T E  O F  T E C H N O L O G Y
+B E  i n  A I & M L  -  C S E
+2 0 2 2  -  2 0 2 6
+C G P A  :  6 . 8 / 1 0
+V I D H Y A N I D H I  P  U  C O L L E G E
+P C M C
+2 0 1 9  -  2 0 2 1
+P E R C E N T A G E  :  6 1 %
+G K  H I G H  S C H O O L
+2 0 1 9  P A S S O U T
+P E R C E N T A G E  :  6 0 %
+D E E P F A K E  D E T E C T I O N  S Y S T E M
+A  D e e p f a k e  D e t e c t i o n  S y s t e m  i s  d e s i g n e d  t o  i d e n t i f y  a n d  p r e v e n t  t h e  m i s u s e  o f
+A I -  g e n e r a t e d  f a k e  m e d i a .  I t  u s e s  M a c h i n e  L e a r n i n g  a n d  D e e p  L e a r n i n g  m o d e l s
+t o  d e t e c t  m a n i p u l a t e d  o r  s y n t h e t i c  c o n t e n t  a c r o s s  m u l t i p l e  f o r m a t s :
+M o t i v a t e d  B E  s t u d e n t  w i t h  a  s t r o n g  f o u n d a t i o n  i n  b a c k e n d  a n d  w e b  d e v e l o p m e n t .  S k i l l e d  i n  P y t h o n ,
+J a v a S c r i p t ,  N o d e . j s ,  a n d  d a t a b a s e  m a n a g e m e n t .  E a g e r  t o  a p p l y  m y  k n o w l e d g e  i n  r e a l - w o r l d  p r o j e c t s
+a n d  g r o w  a s  a  p r o f e s s i o n a l  d e v e l o p e r .
+C r i m i n a l ’ s  D a t a  M a n a g e m e n t  S y s t e m
+ 
+R E H M A N  S H A R I F F
+ 
+F i n a l - Y e a r  B E  S t u d e n t  |  I n t e r e s t e d  i n  S o f t w a r e  E n g i n e e r i n g
+R o l e s
++ 9 1 9 0 3 6 0 6 9 7 3 2 d o d d a b a l l a p u r , b a n g l o r e  r u r a l  d i s t r i c t r e h m a n s h a r i f f 9 9 6 @ g m a i l . c o m
+H O B B I E S
+A B O U T  M E
+E D U C A T I O N
+P R O J E C T S  /  E X P E R I E N C E
+P r o g r a m m i n g  &  L e a r n i n g
+N e w  T e c h n o l o g i e s
+R e a d i n g  &  R e s e a r c h
+G a m i n g  /  E x p l o r i n g
+T r a v e l l i n g
+I m a g e  D e t e c t i o n :  U s e d  X c e p t i o n N e t  C N N  t o  a n a l y z e  f a c i a l  f e a t u r e s  a n d  d e t e c t
+m a n i p u l a t i o n s .
+A u d i o  D e t e c t i o n :  I m p l e m e n t e d  a  C N N – L S T M  h y b r i d  m o d e l  w i t h  M F C C  f e a t u r e s  t o
+d e t e c t  c l o n e d  v o i c e s .
+V i d e o  D e t e c t i o n :  A p p l i e d  R e s N e t  +  B i L S T M  f o r  t e m p o r a l  f r a m e  a n a l y s i s  t o  s p o t
+u n n a t u r a l  f a c i a l  m o v e m e n t s .
+T e c h n o l o g i e s :  P y t h o n ,  T e n s o r F l o w / P y T o r c h ,  O p e n C V ,  L i b r o s a ,  F a c e F o r e n s i c s + +
+d a t a s e t .
+I t ’ s  m y  f i n a l - y e a r  p r o j e c t .
+I t ’ s  u n d e r  p r o c e s s  b u t  a l r e a d y  p l a n n e d  a n d  s t r u c t u r e d .
+Y o u  h a v e  a  c l e a r  c o m p l e t i o n  t i m e l i n e  ( N o v  2 0 2 5 ) .
+F a k e  N e w s  D e t e c t i o n  S y s t e m
+D e v e l o p e d  a  s y s t e m  t o  d e t e c t  f a l s e  n e w s  a r t i c l e s  u s i n g  M a c h i n e  L e a r n i n g
+a n d  N a t u r a l  L a n g u a g e  P r o c e s s i n g  ( N L P ) .
+T e c h n o l o g i e s :  P y t h o n ,  S c i k i t - l e a r n ,  P a n d a s ,  N L T K ,  F l a s k  ( f o r  w e b  i n t e r f a c e ) .
+O u t c o m e :  A c h i e v e d  h i g h  a c c u r a c y  i n  c l a s s i f y i n g  n e w s  a r t i c l e s  a n d  c r e a t e d
+a  s i m p l e  w e b  i n t e r f a c e  f o r  t e s t i n g .
+D e v e l o p e d  a  s y s t e m  t o  m a n a g e  c r i m i n a l r e c o r d s  u s i n g P y t h o n  a n d  M y S Q L .
+G U I  I n t e r f a c e :  B u i l t  w i t h  T k i n t e r  f o r  e a s y  d a t a  e n t r y ,  s e a r c h ,  a n d  m a n a g e m e n t .
+D a t a b a s e :  D e s i g n e d  M y S Q L  d a t t o  s t o r e  a n d  r e t r i e v e  c r i m i n a l  r e c o r d s  e f f i c i e n t l y .
+T e c h n o l o g i e s :  P y t h o n ,  M y S Q L ,  T k i n t e r .
+g i t h u b  l i n k  :  h t t p s : / / g i t h u b . c o m / A b d u l R e h m a n S h a r i f f / c r i m i n a l - d a t a -
+m a n a g e m e n t
+J a v a S c r i p t  
+P y t h o n
+M y S q l
+R e a c t . J S
+G I T / G I T H U B
+M A C H I N E  L E A R N I N G
+M I C R O S O F T  A Z U R E
+M S  W O R D
+M S  E X C E L
+S K I L L S
+ O N L I N E  P R O F I L E S
+L i n k e d I n :  h t t p s : / / w w w . l i n k e d i n . c o m / i n / r e  h m a n - s h a r i f f - 8 a 8 0 7 1 3 0 5 ?
+u t m _ s o u r c e = s h a r e & u t m _ c a m  p a i g n = s h a r e _ v i a & u t m _ c o n t e n
+t = p r o f i l e & u t m _ m e d i u m = a n d r o  i d _ a p p  
+G i t h u b  l i n k : h t t p s : / / g i t h u b . c o m / A b d u l R e h m a n S h a r i f f /
+M i c r o s o f t  A z u r e  F u n d a m e n t a l s  C e r t i f i c a t e  C o m p l e t e d  M i c r o s o f t  A z u r e
+F u n d a m e n t a l s  c o u r s e
+M i c r o s o f t  A z u r e  A d m i n i s t r a t o r  &  D e s i g n  a n d  I m p l e m e n t a t i o n  C e r t i f i c a t e  –
+G a i n e d  p r a c t i c a l  s k i l l s  i n  m a n a g i n g  A z u r e  c l o u d  s e r v i c e s .
+ S e l e c t e d  f o r  a  3 - m o n t h  A r t i f i c i a l  I n t e l l i g e n c e  I n t e r n s h i p  a t  S k i l l X  ,  t r a i n e d
+i n  M L ,  d a t a  p r e p r o c e s s i n g ,  a n d  m o d e l  e v a l u a t i o n .
+F o u n d a t i o n s  o f  D a t a  S c i e n c e  C e r t i f i c a t e  C o m p l e t e d  f r o m  P i n n a c l e  L a b s .
+A C H I E V E M E N T

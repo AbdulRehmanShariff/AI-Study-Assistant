@@ -1,0 +1,11 @@
+Chapter 1: Transformers and Self-Attention
+
+The transformer architecture introduced the self-attention mechanism. Self-attention allows the model to weigh the importance of different words when encoding a sequence. BERT uses bidirectional transformers for pre-training language models.
+
+Chapter 2: Recurrent Neural Networks
+
+RNNs process sequences step by step, maintaining a hidden state. LSTMs solve the vanishing gradient problem in vanilla RNNs. GRUs are a simplified version of LSTMs with fewer parameters.
+
+Chapter 3: Convolutional Neural Networks
+
+CNNs use filters to detect local patterns in images. Pooling layers reduce spatial dimensions while retaining features. ResNets introduced skip connections to train very deep networks.

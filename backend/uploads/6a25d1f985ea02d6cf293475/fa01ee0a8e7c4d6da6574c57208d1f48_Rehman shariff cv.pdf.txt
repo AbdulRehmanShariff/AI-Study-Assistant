@@ -1,0 +1,91 @@
+A I  &  M L  g r a d u a t e  w i t h  h a n d s - o n  e x p e r i e n c e  i n  P y t h o n ,  S Q L ,  M a c h i n e  L e a r n i n g ,  a n d  A I - b a s e d  p r o j e c t
+d e v e l o p m e n t .  B u i l t  p r o j e c t s  i n c l u d i n g  a  D e e p f a k e  D e t e c t i o n  S y s t e m  u s i n g  T e n s o r F l o w ,  O p e n C V ,  a n d  F l a s k
+f o r  d e t e c t i n g  m a n i p u l a t e d  i m a g e ,  v i d e o ,  a n d  a u d i o  c o n t e n t .  S t r o n g  u n d e r s t a n d i n g  o f  P y t h o n  p r o g r a m m i n g ,
+d a t a  p r o c e s s i n g ,  a n d  p r o b l e m - s o l v i n g ,  w i t h  a n  i n t e r e s t  i n  d e v e l o p i n g  i n t e l l i g e n t  s o f t w a r e  s o l u t i o n s  a n d
+d a t a - d r i v e n  a p p l i c a t i o n s .
+R E H M A N  S H A R I F F
+S U M M A R Y
+T E C H N I C A L  S K I L L S
+P r o g r a m m i n g  L a n g u a g e s :  P y t h o n ,  S Q L ,  J a v a S c r i p t
+M a c h i n e  L e a r n i n g  L i b r a r i e s :  N u m P y ,  P a n d a s ,  M a t p l o t l i b ,  S e a b o r n ,  S c i k i t - l e a r n ,  T e n s o r F l o w ,  K e r a s ,
+O p e n C V ,  N L T K
+W e b  T e c h n o l o g i e s :  H T M L 5 ,  C S S 3 ,  J a v a S c r i p t ,  F l a s k
+D a t a b a s e s :  M y S Q L
+T o o l s  &  P l a t f o r m s :  G i t ,  G i t H u b ,  J u p y t e r  N o t e b o o k ,  G o o g l e  C o l a b ,  V S  C o d e ,  P o w e r  B I ,  M i c r o s o f t  E x c e l
+B e n g a l u r u ,  K a r n a t a k a      •  9 0 3 6 0 6 9 7 3 2     •  r e h m a n s h a r i f f 9 9 6 @ g m a i l . c o m
+PYTHON DEVELOPER | AI & ML GRADUATE
+P R O J E C T S
+D e e p f a k e  D e t e c t i o n  S y s t e m  ( M a j o r  P r o j e c t )
+T e c h n o l o g i e s :  P y t h o n ,  T e n s o r F l o w ,  K e r a s ,  O p e n C V ,  F l a s k ,  R e a c t . j s ,  N u m P y ,  P a n d a s
+•  D e v e l o p e d  a  m u l t i - m o d a l  D e e p f a k e  D e t e c t i o n  S y s t e m  t o  i d e n t i f y  m a n i p u l a t e d  i m a g e ,  v i d e o ,  a n d  a u d i o
+c o n t e n t  t h r o u g h  a  w e b - b a s e d  a p p l i c a t i o n .
+•  T r a i n e d  a n d  e v a l u a t e d  d e e p  l e a r n i n g  m o d e l s  u s i n g  F a c e F o r e n s i c s + +  a n d  C e l e b - D F  d a t a s e t s ,  p r o c e s s i n g
+o v e r  1 2 , 0 0 0 +  v i d e o s  a n d  l a r g e - s c a l e  i m a g e  a n d  a u d i o  d a t a s e t s  e x c e e d i n g  4 0  G B .
+•  I m p l e m e n t e d  X c e p t i o n N e t  f o r  i m a g e  c l a s s i f i c a t i o n ,  R e s N e t  w i t h  B i L S T M  f o r  v i d e o  s e q u e n c e  a n a l y s i s ,  a n d
+M F C C - b a s e d  a u d i o  f e a t u r e  e x t r a c t i o n  u s i n g  C N N  a n d  L S T M  a r c h i t e c t u r e s .
+•  A c h i e v e d  o v e r  9 0 %  a c c u r a c y  a c r o s s  i m a g e ,  v i d e o ,  a n d  a u d i o  d e t e c t i o n  m o d e l s  t h r o u g h  d a t a
+p r e p r o c e s s i n g ,  m o d e l  o p t i m i z a t i o n ,  a n d  p e r f o r m a n c e  e v a l u a t i o n .
+•  B u i l t  a  F l a s k  b a c k e n d  a n d  i n t e g r a t e d  t r a i n e d  . k e r a s  m o d e l s  w i t h  t h e  f r o n t e n d ,  e n a b l i n g  u s e r s  t o  u p l o a d
+i m a g e ,  v i d e o ,  a n d  a u d i o  f i l e s  a n d  r e c e i v e  r e a l - t i m e  d e e p f a k e  d e t e c t i o n  r e s u l t s .
+•  E n h a n c e d  t h e  p l a t f o r m  w i t h  a  m i s i n f o r m a t i o n  d e t e c t i o n  m o d u l e  a n d  a n  A I - p o w e r e d  c h a t b o t  t o  i m p r o v e
+u s e r  i n t e r a c t i o n  a n d  p r o j e c t  a c c e s s i b i l i t y .
+S m a r t  R e s u m e  S c r e e n i n g  &  C a n d i d a t e  R a n k i n g  S y s t e m
+T e c h n o l o g i e s :  P y t h o n ,  F l a s k ,  R e a c t . j s ,  M y S Q L ,  s p a C y ,  S e n t e n c e  T r a n s f o r m e r s ,  S c i k i t - l e a r n ,  N L P
+•  D e v e l o p e d  a n  A I - p o w e r e d  r e s u m e  s c r e e n i n g  s y s t e m  t h a t  a u t o m a t e s  c a n d i d a t e  e v a l u a t i o n  a n d  r a n k i n g
+b a s e d  o n  j o b  r e q u i r e m e n t s  a n d  r e s u m e  c o n t e n t .
+•  B u i l t  a n  N L P  p i p e l i n e  t o  e x t r a c t  s k i l l s ,  e x p e r i e n c e ,  p r o j e c t s ,  e d u c a t i o n ,  a n d  c e r t i f i c a t i o n s  f r o m  P D F  a n d
+D O C X  r e s u m e s  a n d  s t o r e  s t r u c t u r e d  c a n d i d a t e  d a t a  i n  M y S Q L .
+•  I m p l e m e n t e d  s e m a n t i c  m a t c h i n g  u s i n g  S e n t e n c e  T r a n s f o r m e r s  a n d  c o s i n e  s i m i l a r i t y  t o  c o m p a r e
+c a n d i d a t e  p r o f i l e s  w i t h  j o b  d e s c r i p t i o n s  b e y o n d  k e y w o r d - b a s e d  m a t c h i n g .
+•  D e s i g n e d  a  w e i g h t e d  s c o r i n g  e n g i n e  t h a t  g e n e r a t e d  A T S - s t y l e  s c o r e s ,  c a n d i d a t e  r a n k i n g s ,  a n d
+e x p l a i n a b l e  r e c o m m e n d a t i o n s  b a s e d  o n  s k i l l s ,  e x p e r i e n c e ,  p r o j e c t s ,  a n d  q u a l i f i c a t i o n s .
+•  D e v e l o p e d  a  R e a c t - b a s e d  d a s h b o a r d  t o  d i s p l a y  r a n k e d  c a n d i d a t e s ,  m a t c h  s c o r e s ,  a n a l y t i c s ,  a n d  d e t a i l e d
+c a n d i d a t e  i n s i g h t s ,  h e l p i n g  r e d u c e  m a n u a l  s c r e e n i n g  e f f o r t .
+l i n k e d i n . c o m / i n / r e h m a n - s h a r i f f - 8 a 8 0 7 1 3 0 5      • g i t h u b . c o m / A b d u l R e h m a n S h a r i f f
+
+F a c e  M a s k  C o m p l i a n c e  M o n i t o r i n g  S y s t e m
+T e c h n o l o g i e s :  P y t h o n ,  T e n s o r F l o w ,  K e r a s ,  O p e n C V ,  F l a s k ,  R e a c t . j s ,  M y S Q L ,  N u m P y ,  P a n d a s
+•  D e v e l o p e d  a  r e a l - t i m e  c o m p u t e r  v i s i o n  s y s t e m  c a p a b l e  o f  d e t e c t i n g  f a c e s  f r o m  l i v e  c a m e r a  f e e d s  a n d
+c l a s s i f y i n g  m a s k  c o m p l i a n c e  u s i n g  d e e p  l e a r n i n g  t e c h n i q u e s .
+•  T r a i n e d  a n d  e v a l u a t e d  a  C N N - b a s e d  m a s k  d e t e c t i o n  m o d e l  u s i n g  l a r g e - s c a l e  f a c e  m a s k  d a t a s e t s ,
+e n a b l i n g  a c c u r a t e  c l a s s i f i c a t i o n  o f  M a s k  a n d  N o  M a s k  c a t e g o r i e s .
+•  I m p l e m e n t e d  O p e n C V - b a s e d  f a c e  d e t e c t i o n  a n d  r e a l - t i m e  v i d e o  p r o c e s s i n g  t o  p e r f o r m  l i v e  m a s k
+m o n i t o r i n g  a n d  g e n e r a t e  i n s t a n t  p r e d i c t i o n s .
+•  D e s i g n e d  a n  a u t o m a t e d  v i o l a t i o n  m a n a g e m e n t  s y s t e m  t h a t  c a p t u r e s  i m a g e s  o f  i n d i v i d u a l s  w i t h o u t
+m a s k s ,  r e c o r d s  t i m e s t a m p s ,  a n d  s t o r e s  v i o l a t i o n  d a t a  i n  a  M y S Q L  d a t a b a s e .
+•  B u i l t  a  F l a s k  b a c k e n d  a n d  m o n i t o r i n g  d a s h b o a r d  t o  t r a c k  c o m p l i a n c e  s t a t i s t i c s ,  r e v i e w  v i o l a t i o n  r e c o r d s ,
+a n d  p r o v i d e  c e n t r a l i z e d  a c c e s s  t o  c a p t u r e d  v i o l a t i o n  d a t a .
+INTERNSHIPS
+D a t a  S c i e n c e  I n t e r n  |  Q S p i d e r s ,  H e b b a l  ( F e b  2 0 2 6  –  M a y  2 0 2 6 )
+•   C o m p l e t e d  i n d u s t r y - o r i e n t e d  t r a i n i n g  i n  P y t h o n ,  D a t a  S c i e n c e ,  a n d  M a c h i n e  L e a r n i n g  c o n c e p t s .
+•  W o r k e d  w i t h  P y t h o n ,  N u m P y ,  P a n d a s ,  a n d  d a t a  a n a l y s i s  t e c h n i q u e s  f o r  d a t a  p r e p r o c e s s i n g  a n d
+e x p l o r a t o r y  a n a l y s i s  t a s k s .
+•  P a r t i c i p a t e d  i n  t e c h n i c a l  p r e s e n t a t i o n s ,  m o c k  i n t e r v i e w s ,  a n d  p r o b l e m - s o l v i n g  s e s s i o n s  t o  s t r e n g t h e n
+a n a l y t i c a l  a n d  c o m m u n i c a t i o n  s k i l l s .
+•  A p p l i e d  D a t a  S c i e n c e  c o n c e p t s  t h r o u g h  p r o j e c t - b a s e d  l e a r n i n g  a c t i v i t i e s  a n d  p r a c t i c a l  a s s i g n m e n t s .
+A r t i f i c i a l  I n t e l l i g e n c e  I n t e r n  |  L e a r n X  ( P o w e r e d  b y  W i p r o )  |  2  M o n t h s
+•  C o m p l e t e d  s t r u c t u r e d  t r a i n i n g  i n  A r t i f i c i a l  I n t e l l i g e n c e  a n d  M a c h i n e  L e a r n i n g  f u n d a m e n t a l s .
+•  E x p l o r e d  m a c h i n e  l e a r n i n g  w o r k f l o w s ,  A I  a p p l i c a t i o n s ,  a n d  p r o b l e m - s o l v i n g  a p p r o a c h e s  t h r o u g h  p r a c t i c a l
+l e a r n i n g  m o d u l e s .
+•  G a i n e d  e x p o s u r e  t o  A I  c o n c e p t s  i n c l u d i n g  m o d e l  d e v e l o p m e n t ,  d a t a  p r o c e s s i n g ,  a n d  i n t e l l i g e n t  s y s t e m
+d e s i g n .
+•  S t r e n g t h e n e d  u n d e r s t a n d i n g  o f  r e a l - w o r l d  A I  a p p l i c a t i o n s  t h r o u g h  h a n d s - o n  e x e r c i s e s  a n d  g u i d e d
+l e a r n i n g  a c t i v i t i e s .
+EDUCA TION
+B a c h e l o r  o f  E n g i n e e r i n g  ( B . E . )  i n  A r t i f i c i a l  I n t e l l i g e n c e  &  M a c h i n e  L e a r n i n g
+K  N  S  I n s t i t u t e  o f  T e c h n o l o g y ,  B e n g a l u r u
+2 0 2 2  –  2 0 2 6  |  C G P A :  7 . 7 8
+P r e - U n i v e r s i t y  C o u r s e  ( P U C )
+V i d h y a n i d h i  P U  I n d e p e n d e n t  C o l l e g e
+2 0 1 9  –  2 0 2 1  |  P e r c e n t a g e :  6 2 %
+CERTIFICA TIONS
+D a t a  S c i e n c e  C e r t i f i c a t i o n  –  Q S p i d e r s ,  H e b b a l
+A r t i f i c i a l  I n t e l l i g e n c e  I n t e r n s h i p  C e r t i f i c a t i o n  –  L e a r n X  ( P o w e r e d  b y  W i p r o )
+M i c r o s o f t  A z u r e  F u n d a m e n t a l s  C e r t i f i c a t i o n
+ADDITIONAL  INFORMA TION
+•  A v a i l a b l e  f o r  f u l l - t i m e  S o f t w a r e  D e v e l o p e r ,  P y t h o n  D e v e l o p e r ,  a n d  A I / M L  E n g i n e e r  r o l e s .
+•  O p e n  t o  r e l o c a t i o n  a n d  o n - s i t e ,  h y b r i d ,  o r  r e m o t e  o p p o r t u n i t i e s .
+•  H a n d s - o n  e x p e r i e n c e  d e v e l o p i n g  A I - p o w e r e d  a p p l i c a t i o n s  u s i n g  P y t h o n ,  F l a s k ,  S Q L ,  a n d  M a c h i n e
+L e a r n i n g  t e c h n o l o g i e s .
+PORTFOLIO
+a b d u l r e h m a n s h a r i f f . g i t h u b . i o / p o r t f o l i o
